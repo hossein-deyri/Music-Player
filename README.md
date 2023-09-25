@@ -1,5 +1,7 @@
 # Music-Player
 
+![view](https://github.com/hossein-deyri/Music-Player/assets/136192436/61575615-5449-4ed7-a532-aad49e87989a)
+
 - [Demo Project](https://hossein-deyri.github.io/First-Project/)
 
 - Developed By Hossein Deyri
