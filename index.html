@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="assets/font/BigelowRules-Regular.ttf">
+    <link rel="stylesheet" href="assets/icon/css/fontello.css">
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/master.css">
+</head>
+
+<body>
+    <main id="main">
+        <audio></audio>
+        <div class="container-fluid container-xxl h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="box_player col-10 col-sm-7 col-md-5 col-lg-3 ">
+                    <div class="menu col-12 my-2 my-md-0">
+                        <button class="back">
+                            <i class="demo-icon icon-left-open"></i>
+                        </button>
+                        <button class="play_list">
+                            <i class="demo-icon icon-menu-1"></i>
+                        </button>
+                    </div>
+                    <div class="cover col-12">
+                        <div id="cover_song" class="col-8">
+
+                        </div>
+                    </div>
+                    <div class="details_songer col-12 ">
+                        <h6 id="name_singer" class="col-12">Shadmehr Aghili</h6>
+                        <span id="name_song">Taghdir</span>
+                    </div>
+                    <div class="progres col-12 ">
+                        <div class="timer  col-12 d-flex justify-content-center">
+                            <span id="past_time" class="col-5  d-flex">0:0</span>
+                            <span id="total_time" class="col-5  d-flex justify-content-end">4:41</span>
+                        </div>
+                        <div class="bg-played col-10">
+                            <div class="played">
+                                <div class="circle">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control_song col-12 ">
+                        <button id="arrow" onclick="previous(this)">
+                            <i class="demo-icon icon-fast-bw"></i>
+                        </button>
+                        <button onclick="ply(this)" class="play">
+                            <i class="demo-icon icon-play" data-status="play"></i>
+                            <i class="demo-icon icon-pause pause"></i>
+                        </button>
+                        <button id="arrow" onclick="next(this)">
+                            <i class="demo-icon icon-fast-fw"></i>
+                        </button>
+                    </div>
+                    <div id="list_music" class="col-12">
+                        <div class="col-12  d-flex text-white">
+                            <figure class="col-4  my-0">
+                                <img src="assets/img/1.jpg" alt="hossein deyri">
+                            </figure>
+                            <div class="title col-6">
+                                <span class="col-12">Shadmehr Aghili</span>
+                                <span class="col-12">Taghdir</span>
+                            </div>
+                            <div class="icon col-2">
+                                <i id="play_icon" class="demo-icon icon-play 1"></i>
+                                <i id="music_icon" class="demo-icon icon-music"></i>
+                            </div>
+                        </div>
+                        <div class="col-12  d-flex text-white">
+                            <figure class="col-4 my-0">
+                                <img src="assets/img/2.jpg" alt="hossein deyri">
+                            </figure>
+                            <div class="title col-6">
+                                <span>AaRON</span>
+                                <span>U Turn (Lili)</span>
+                            </div>
+                            <div class="icon col-2 ">
+                                <i id="play_icon" class="demo-icon icon-play 1"></i>
+                                <i id="music_icon" class="demo-icon icon-music"></i>
+                            </div>
+                        </div>
+                        <div class="col-12  d-flex text-white">
+                            <figure class="col-4 my-0">
+                                <img src="assets/img/3.jpg" alt="hossein deyri">
+                            </figure>
+                            <div class="title col-6">
+                                <span>Asef Aria</span>
+                                <span>Dastan</span>
+                            </div>
+                            <div class="icon col-2">
+                                <i id="play_icon" class="demo-icon icon-play 1"></i>
+                                <i id="music_icon" class="demo-icon icon-music"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex text-white">
+                            <figure class="col-4 my-0">
+                                <img src="assets/img/4.jpg" alt="hossein deyri">
+                            </figure>
+                            <div class="title col-6">
+                                <span>Moby</span>
+                                <span>Extrem Eways</span>
+                            </div>
+                            <div class="icon col-2">
+                                <i id="play_icon" class="demo-icon icon-play 1"></i>
+                                <i id="music_icon" class="demo-icon icon-music"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 id="me">Developed By Hossein deyri <a href="https://github.com/hossein-deyri"><i
+                            class="demo-icon icon-github-circled"></i></a></h1>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="assets/js/master.js"></script>
+
+</html>
