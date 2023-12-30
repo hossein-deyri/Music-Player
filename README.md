@@ -1,7 +1,5 @@
 # Music-Player
-Responsive
-
-![view](https://github.com/hossein-deyri/Music-Player/assets/136192436/61575615-5449-4ed7-a532-aad49e87989a)
+( Responsive )
 
 - [Demo Project](https://hossein-deyri.github.io/Music-Player/)
 
@@ -9,8 +7,10 @@ Responsive
 
 - Created - 2023-09-25
 
-- Technologies Used - Html5, Css3, Sass, BootStrap, JavaScript
+- Technologies Used - Html, Css, Sass, BootStrap, JavaScript
 
 - Role - Frontend
 
 - How to reach me : with my [instagram](https://www.instagram.com/hossein.deyri_web) and [linkedin](https://www.linkedin.com/in/hossein-deyri)
+
+![view](https://github.com/hossein-deyri/Music-Player/assets/136192436/61575615-5449-4ed7-a532-aad49e87989a)
